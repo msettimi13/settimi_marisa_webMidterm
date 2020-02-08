@@ -1,14 +1,275 @@
 @charset "UTF-8";
 
+div,p,body,header,footer,article { 
+	font-family: helvetica, sans-serif;
+	font-size: 15px;
+	margin: 10px; 
+	padding: 0;
+	color: white; 
+}	
+
+html,body {padding:0; margin:0;}
+
+h2 {
+	font-family: 'Arial Black', helvetica, sans-serif;
+	font-size: 30px;
+	margin-top: 10px;
+	text-transform: uppercase;
+	color: #f9f208;
+}
+
+h3 {
+	font-family: helvetica, sans-serif;
+	font-size: 45px;
+	margin-top: 10px;
+	color: white; 
+}
 #siteContainer 
 {
 	margin: 0 auto;
 	width: 920px;
 	padding-left: 20px;
 	padding-right: 20px;
+	background-color: black;
 }
-
 
 .hidden {
 	display: none;
 }
+
+#logo {
+	margin: 0px;
+	width: 920px;
+	height: 300px;
+}
+
+ /* main nav */
+
+#mainNav
+{	
+	width: 920px;
+  	height: 60px;
+  	margin: 0;
+  	background-color: black;
+}
+
+#mainNav ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+#mainNav ul li {  
+  font-size: 23px;
+  font-family: Arial Black;
+  display: inline;
+  cursor: pointer;
+  margin-left: 70px;
+  color: #f9f208;
+}
+
+#mainNav ul li a
+{
+  color: #f9f208;
+  padding: 5px;
+}
+
+#mainNav ul li a:hover {
+  padding: 5px;
+  color: black;
+}
+
+/*end main nav */
+
+/*footer nav */
+
+#footerNav
+{	
+	width: 920px;
+  	height: 150px;
+  	margin: 0;
+    padding-top: 60px;
+  	background-color: black;
+  	margin-top: 40px;
+}
+
+#footerNav ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+#footerNav ul li {  
+  font-size: 23px;
+  font-family: Arial Black;
+  display: inline;
+  cursor: pointer;
+  margin-left: 70px;
+  color: #f9f208;
+}
+
+#footerNav ul li a
+{
+  color: #f9f208;
+  padding: 5px;
+}
+
+#footerNav ul li a:hover {
+  padding: 5px;
+  color: black;
+  
+}
+
+#footerNav img {
+	width: 20%;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+/* end footer nav */
+
+
+/* index */
+
+#newBrand img
+{
+	margin: 0;
+	width: 920px;
+	height: 400px;
+}
+
+#homeContent {
+	height: 400px;
+	width: 920px;
+	margin: 10px;
+}
+
+#homeText img {
+	margin: 10px;
+	padding-top: 40px;
+	width: 50%;
+	padding-left: 220px;
+}
+
+#indexFooterNav
+{	
+	width: 920px;
+  	height: 200px;
+  	margin: 0;
+  	padding-top: 500px;
+  	background-color: black;
+}
+
+#indexFooterNav ul
+{
+  list-style-type: none;
+  padding: 0;
+}
+
+#indexFooterNav ul li {  
+  font-size: 23px;
+  font-family: Arial Black;
+  display: inline;
+  cursor: pointer;
+  margin-left: 70px;
+  color: #f9f208;
+}
+
+#indexFooterNav ul li a
+{
+  color: #f9f208;
+  padding: 5px;
+}
+
+#indexFooterNav ul li a:hover {
+  padding: 5px;
+  color: black;
+  
+}
+
+#indexFooterNav img {
+	width: 20%;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+
+/* end index */
+
+
+/* shop */
+
+#differentFlavourBeers {
+	width: 500px;
+	margin-left: 220px;
+}
+
+#shopContent {
+	width: 450px;
+	margin: 0;
+}
+#shopContent ul li {
+	font-family: 'Arial Black';
+	font-size: 20px;
+	margin-top: 150px;
+	margin-left: 100px;
+	padding-bottom: 40px;
+}
+
+#bottles {
+	width: 200px;
+	float: right;
+}
+
+
+
+/* end shop */
+
+
+/* contact */
+
+
+
+
+
+
+
+/* end contact */
+
+
+/* ad */
+
+
+
+
+
+
+
+/* end ad */
+
+
+/* about */
+
+#creatorOfCoors {
+	margin-left: 80px;
+}
+
+#aboutContent p {
+	width: 600px;
+	margin: 40px;
+}
+
+#coorsHistory {
+	float: right;
+}
+
+#molsonBuilding {
+	width: 50%;
+}
+
+/* end about */
+
+
+
+
+

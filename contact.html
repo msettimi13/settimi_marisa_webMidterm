@@ -9,7 +9,7 @@
 
 	<div id="siteContainer">
 		<h1 class="hidden">Contact Page</h1>
-		<section id="logo">
+		<section id="mainLogo">
 		    <h2 class="hidden">Logo</h2>
 		    <img src="assets/brandLogo.png" alt="coorslogo" id="logo">
 		</section>
@@ -20,26 +20,38 @@
             	<li><a href="about.html">ABOUT</a></li>
             	<li><a href="shop.html">SHOP</a></li>
             	<li class="selected"><a href="#">CONTACT</a></li>
-            	<li><a href="ad.html">ADS</a></li>
+            	<li><a href="locations.html">LOCATIONS</a></li>
             </ul>
 		</div>
 
+	<section id="contentCon">
+            <h2 class="hidden">Content Area</h2>
+			<section id="contactArea">
+                <h2 class="hidden">Contact form</h2>
+                <p id="contactText">CONTACT US HERE!</p> 
+            <form id="contactForm" action="form.php" method="post">
+                    <label for="name">NAME:</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Enter your name">
+                    
+                    <label for="email">EMAIL:</label>
+                    <input type="email" required id="email" size="30" placeholder="Enter your Email">
+                    
+                    
+                    <label for="phone">PHONE NUMBER:</label>
+                    <input type="tel" required id="phone" size="30" placeholder="Enter Phone Number">
+                    
+                    <label for="comments">COMMENTS:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+       
+                    <input id="submit" type="submit" value="Submit">
+            </form>
+			</section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	<section id="contactPhoto">
+		<h2 class="hidden">Contact Photo</h2>
+		<img src="images/beerCap.jpg" alt="beerCap" id="beerCap">
+	</section>
+</section>
 
 		<div id="footerNav">
 		            <h2 class="hidden">Footer Navigation</h2>
@@ -48,7 +60,7 @@
             			<li><a href="about.html">ABOUT</a></li>
             			<li><a href="shop.html">SHOP</a></li>
             			<li class="selected"><a href="#">CONTACT</a></li>
-            			<li><a href="ad.html">ADS</a></li>
+            			<li><a href="locations.html">LOCATIONS</a></li>
 		            </ul>
 		            <img src="assets/whitelogos.png" alt="socialMedia" id="socials">
 				</div>
